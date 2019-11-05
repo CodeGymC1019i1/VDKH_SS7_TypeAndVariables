@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="convertUnitOfLengthMeasurement.js"></script>
+</head>
+<body>
+    <form>
+        Lenght: <input type="text" id="length" />
+        <select id="fromUnit">
+            <option value="1">meter</option>
+            <option value="0.001">Kilometer</option>
+            <option value="100">centimeter</option>
+            <option value="10">decimeter</option>
+            <option value="1000">millimeter</option>
+        </select>
+        <select id="toUnit">
+            <option value="1">meter</option>
+            <option value="0.001">Kilometer</option>
+            <option value="100">centimeter</option>
+            <option value="10">decimeter</option>
+            <option value="1000">millimeter</option>
+        </select>
+        <button type="button" onclick="convertUnit()">convert</button>
+    </form>
+<div id="result"></div>
+</body>
+</html>
