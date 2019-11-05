@@ -1,9 +1,7 @@
-table{
-    width: 50%;
+* {
+    width: 50px;
 }
-#screen{
-    width: 100%;
-}
-button{
-    width: 100%;
+
+#display {
+    width: 212px;
 }
