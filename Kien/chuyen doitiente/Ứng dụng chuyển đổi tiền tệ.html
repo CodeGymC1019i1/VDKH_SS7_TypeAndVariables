@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+    <script src="convertCurrency.js"></script>
+    <script src="convertco.js"></script>
+</head>
+<body>
+<form action="" method="POST">
+    Amount <br>
+    <input type="text" name="amount" id="amount"><br>
+    From Currency<br>
+    <select id="fromCurrency">
+        <option name="fromCurrency" value="fromVND">VND</option>
+        <option name="fromCurrency" value="fromUSD">USD</option>
+    </select>
+    <br>
+    To Currency <br>
+    <select id="toCurrency">
+        <option name="toCurrency" value="toVND">VND</option>
+        <option name="toCurrency" value="toUSD">USD</option>
+    </select>
+    <br>
+    <button type="button" onclick="changeCurrency();"> convert </button>
+</form>
+<div id="result"></div>
+</body>
+</html>
